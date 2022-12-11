@@ -1,0 +1,82 @@
+* {
+    /* default for all elements*/
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: khaki;
+    background-image: url(https://img.freepik.com/free-vector/flat-geometric-background_23-2148967370.jpg?w=2000);
+}
+
+.main {
+    width: 70vw;
+    height: 400px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.main .form form input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    height: 30px;
+    border: 0;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    background-color: #1a545c;
+    color: white;
+}
+
+.main .form form input:focus {
+    outline: 0;
+}
+
+.main .form form button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #1a545c;
+    border: 0;
+    border-radius: 20px;
+    margin-left: 8px;
+    margin-top: 10px;
+    padding: 25px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.describtion ,.form{
+    width: 48%;
+    padding: 20px;
+    
+}
+.describtion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.describtion h1{
+    color: gray;
+}
+.describtion p{
+    font-size: 20px;
+    color: rgb(47, 47, 47);
+}
+.describtion div span{
+    padding: 5px;
+    box-shadow: 3px 3px 7px -2px gray;
+}
+.describtion div span:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
+::placeholder{
+    color: white;
+}
